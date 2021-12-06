@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/main.css">
+  <title>Catch Game</title>
+</head>
+<body>
+  <div class="screen">
+    <h1>Speed Catch</h1>
+    <button class="btn" id="start-btn">Play Game</button>
+  </div>
+
+  <div class="screen">
+    <h1>Choose your Favorite!</h1>
+    <ul class="facelist">
+      <li>
+        <button class="choose-face">
+          <p>A</p>
+          <img src="/img/rabbit_PNG3792.png" alt="Angie">
+        </button>
+      </li>
+      <li>
+        <button class="choose-face">
+          <p>J</p>
+          <img src="/img/lion_PNG555.png" alt="Justin">
+        </button>
+      </li>
+      <li>
+        <button class="choose-face">
+          <p>Pepe</p>
+          <img src="/img/30-302355_batman-pepe.png" alt="Fluffy">
+        </button>
+      </li>
+    </ul>
+  </div>
+
+  <div class="screen game-container" id="game-container">
+    <div> <h3 class="refresh">^Reload 2 Play Again^</h3></div>
+    <h3 id="time" class="time"></h3>
+    <h3 id="score">Score: 0</h3>
+    <h5 id="message" class="message">
+      Are you annoyed yet? <br>
+      You are playing an impossible game!!
+    </h5>
+  </div>
+
+  
+
+
+
+  <script src="/script.js"></script>
+</body>
+</html>
